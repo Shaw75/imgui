@@ -10,6 +10,9 @@
     <Filter Include="main">
       <UniqueIdentifier>{eaace24f-4203-4402-9889-18fe70415351}</UniqueIdentifier>
     </Filter>
+    <Filter Include="imguidx11">
+      <UniqueIdentifier>{34d6c694-37b1-4764-aaee-832c71a1c16f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="backends\imgui_impl_dx11.cpp">
@@ -17,9 +20,6 @@
     </ClCompile>
     <ClCompile Include="backends\imgui_impl_win32.cpp">
       <Filter>backends</Filter>
-    </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>main</Filter>
     </ClCompile>
     <ClCompile Include="imgui.cpp">
       <Filter>imgui</Filter>
@@ -35,6 +35,12 @@
     </ClCompile>
     <ClCompile Include="imgui_widgets.cpp">
       <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11.cpp">
+      <Filter>imguidx11</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -61,6 +67,9 @@
     </ClInclude>
     <ClInclude Include="imstb_truetype.h">
       <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11.h">
+      <Filter>imguidx11</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
